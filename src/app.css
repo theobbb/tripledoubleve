@@ -1,1 +1,23 @@
 @import 'tailwindcss';
+
+@theme {
+	--color-brown: #3a3026;
+	--color-orange: #c86228;
+	--color-blue: #392c5e;
+	--color-red: #b93d1e;
+	--color-yellow: #f4d641;
+	--color-pink: #d391a2;
+	--color-green: #719043;
+}
+
+@font-face {
+	font-family: 'vcr-osd-mono';
+	src: url('/fonts/vcr-osd-mono.woff2');
+	font-display: swap;
+
+	font-style: normal;
+}
+html {
+	background-color: var(--color-brown);
+	font-family: vcr-osd-mono;
+}
