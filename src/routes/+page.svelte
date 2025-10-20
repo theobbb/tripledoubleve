@@ -1,6 +1,14 @@
 <script>
 </script>
 
+<svelte:head>
+	<title>3xw - tripledoubleve</title>
+	<meta
+		name="description"
+		content="Design, conception & développement d’expériences numériques uniques & performantes"
+	/>
+</svelte:head>
+
 <div
 	class="relative grid h-svh grid-cols-6 grid-rows-[auto_auto_auto_1fr] gap-x-6 gap-y-12 overflow-hidden px-3 py-2 text-lg/5 text-yellow lg:px-12 lg:py-6 lg:text-3xl/8"
 >
