@@ -46,7 +46,7 @@
 		</div>
 	</div>
 </div>
-<div class="fixed right-12 bottom-0 left-0 h-[50svh] min-h-135">
+<div class="pointer-events-none fixed right-12 bottom-0 left-0 h-[50svh] min-h-135">
 	<svg
 		width="100vw"
 		height="100svh"
