@@ -18,6 +18,8 @@
 	font-style: normal;
 }
 html {
-	background-color: var(--color-brown);
+	/* background-color: var(--color-brown); */
+	background-color: rgb(233, 233, 233);
 	font-family: vcr-osd-mono;
+	color: rgb(30, 30, 30);
 }
