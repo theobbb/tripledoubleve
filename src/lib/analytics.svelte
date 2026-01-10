@@ -3,8 +3,10 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 
+	const DOMAIN = '3xw.ca';
+
 	// Replace with your actual GoatCounter URL
-	const GOATCOUNTER_URL = 'https://stats.3xw.ca/count';
+	const GOATCOUNTER_URL = `https://stats.${DOMAIN}/count`;
 
 	onMount(() => {
 		if (!browser) return;
@@ -12,7 +14,7 @@
 		// 1. Load the script manually
 		const script = document.createElement('script');
 		script.async = true;
-		script.src = '//stats.yourdomain.com/count.js';
+		script.src = `//stats.${DOMAIN}/count.js`;
 		script.dataset.goatcounter = GOATCOUNTER_URL;
 		document.head.appendChild(script);
 	});
