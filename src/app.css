@@ -1,15 +1,16 @@
 @import 'tailwindcss';
 
 @font-face {
-	font-family: 'vcr-osd-mono';
-	src: url('/fonts/vcr-osd-mono.woff2');
+	font-family: 'Apfel Grotezk';
+	src: url('/fonts/ApfelGrotezk-Regular.woff2');
 	font-display: swap;
 
 	font-style: normal;
 }
 html {
 	/* background-color: var(--color-brown); */
-	background-color: rgb(160, 160, 160);
-	font-family: vcr-osd-mono;
+	/* background-color: rgb(160, 160, 160); */
+	/* font-family: vcr-osd-mono; */
+	font-family: 'Apfel Grotezk';
 	color: rgb(30, 30, 30);
 }

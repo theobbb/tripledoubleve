@@ -1,14 +1,24 @@
 <svelte:head>
-	<title>tripledoubleve</title>
+	<title>Ecartelement</title>
 	<meta
 		name="description"
 		content="Design, conception & développement d’expériences numériques uniques & performantes"
 	/>
 </svelte:head>
 
-<div class="mx-4 my-2 grid grid-cols-12 text-2xl/8 lg:mx-9 lg:my-6">
+<div class="flex min-h-screen items-center justify-center text-2xl">
+	<div class="pb-6 text-center">
+		<div class="text-6xl tracking-tight uppercase">Écartèlement</div>
+		<div class="mt-2">Design, conception & développement web</div>
+		<div class="mt-24-">
+			<a class="hover:underline" href="mailto:theobbb64@gmail.com"> theobbb64@gmail.com </a>
+		</div>
+	</div>
+</div>
+
+<!-- <div class="mx-4 my-2 grid grid-cols-12 text-2xl/8 lg:mx-9 lg:my-6">
 	<div class="col-span-full max-sm:text-balance lg:col-span-7">
-		<div class="max-w-130">Design, conception & développement de services web</div>
+		<div class="max-w-130">Design, conception & développement web</div>
 	</div>
 
 	<div class="col-span-full max-lg:mt-16 lg:col-span-4">
@@ -28,6 +38,5 @@
 				>
 			</div>
 		</div>
-		<!-- <div>(adresse professionnelle)</div> -->
 	</div>
-</div>
+</div> -->
