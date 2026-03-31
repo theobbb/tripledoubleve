@@ -9,8 +9,8 @@
 <div class="flex min-h-screen items-center justify-center text-2xl">
 	<div class="pb-6 text-center">
 		<div class="text-6xl tracking-tight uppercase">Écartèlement</div>
-		<div class="mt-2">Design, conception & développement web</div>
-		<div class="mt-24-">
+		<div class="mt-1">Design, conception & développement web</div>
+		<div class="mt-1">
 			<a class="hover:underline" href="mailto:theobbb64@gmail.com"> theobbb64@gmail.com </a>
 		</div>
 	</div>
