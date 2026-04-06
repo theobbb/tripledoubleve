@@ -1,3 +1,12 @@
+<script>
+	import { onMount } from 'svelte';
+
+	let mounted = $state(false);
+	onMount(() => {
+		mounted = true;
+	});
+</script>
+
 <svelte:head>
 	<title>Ecartelement</title>
 	<meta
@@ -6,11 +15,29 @@
 	/>
 </svelte:head>
 
-<div class="flex min-h-screen items-center justify-center text-2xl">
+<!-- <div class="fixed inset-0 grid grid-cols-2">
+	<div class="relative">
+		<img
+			class={[
+				' absolute h-full w-full origin-top-left transition-all duration-[1200ms]',
+				mounted
+					? 'translate-x-[-20%] scale-x-50 rotate-90 [transition-timing-function:cubic-bezier(0.68,-0.55,0.27,1.55)]'
+					: 'translate-x-0 scale-x-100 rotate-0'
+			]}
+			src="/curtain-left.webp"
+			alt=""
+		/>
+	</div>
+
+	<div class="relative">
+		<img class=" absolute h-full w-full origin-top-right" src="/curtain-right.webp" alt="" />
+	</div>
+</div> -->
+<div class="flex min-h-screen items-center justify-center">
 	<div class="pb-6 text-center">
-		<div class="text-6xl tracking-tight uppercase">Écartèlement</div>
-		<div class="mt-1">Design, conception & développement web</div>
-		<div class="mt-1">
+		<div class="uppercase- tracking-tight- border-b">Écartèlement</div>
+		<div class="">Design, conception & développement web</div>
+		<div class="">
 			<a class="hover:underline" href="mailto:theobbb64@gmail.com"> theobbb64@gmail.com </a>
 		</div>
 	</div>
@@ -40,3 +67,9 @@
 		</div>
 	</div>
 </div> -->
+
+<style>
+	img {
+		/* image-rendering: pixelated; */
+	}
+</style>

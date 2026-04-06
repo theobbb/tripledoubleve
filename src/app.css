@@ -1,16 +1,68 @@
 @import 'tailwindcss';
 
-@font-face {
+/* @font-face {
 	font-family: 'Apfel Grotezk';
 	src: url('/fonts/ApfelGrotezk-Regular.woff2');
 	font-display: swap;
 
 	font-style: normal;
-}
+} */
 html {
 	/* background-color: var(--color-brown); */
 	/* background-color: rgb(160, 160, 160); */
 	/* font-family: vcr-osd-mono; */
-	font-family: 'Apfel Grotezk';
+	font-family: 'Times';
 	color: rgb(30, 30, 30);
+}
+
+.link-shake {
+	-webkit-animation: link-shake 0.6s cubic-bezier(0.1, 0.6, 0.4, 1) infinite;
+	animation: link-shake 0.6s cubic-bezier(0.1, 0.6, 0.4, 1) infinite;
+	animation-name: link-shake;
+	animation-duration: 0.1s;
+	animation-timing-function: cubic-bezier(0.1, 0.6, 0.4, 1);
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-fill-mode: none;
+	animation-play-state: running;
+	/* animation-timeline: ; */
+}
+@-webkit-keyframes link-shake {
+	0%,
+	to {
+		-webkit-transform: rotate(4deg);
+		transform: rotate(4deg);
+	}
+	25% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	50% {
+		-webkit-transform: rotate(-4deg);
+		transform: rotate(-4deg);
+	}
+	75% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+}
+@keyframes link-shake {
+	0%,
+	to {
+		-webkit-transform: rotate(4deg);
+		transform: rotate(4deg);
+	}
+	25% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	50% {
+		-webkit-transform: rotate(-4deg);
+		transform: rotate(-4deg);
+	}
+	75% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
 }
